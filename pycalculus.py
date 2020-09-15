@@ -9,7 +9,7 @@ parser.add_argument('-d', '--derivative', required=False, metavar="FUNCTION")
 parser.add_argument('-i','--integral', required=False, metavar="INTEGRAL")
 
 # lower limit, upper limit
-parser.add_argument('-l', '--limits', required=False, nargs='+',metavar="(lower_limit, upper_limit")
+parser.add_argument('-l', '--limits', required=False, nargs='+',metavar=None)
 args = parser.parse_args()
 
 init_printing(use_unicode=False, wrap_line=False, no_global=True)
