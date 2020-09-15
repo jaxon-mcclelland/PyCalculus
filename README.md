@@ -12,7 +12,7 @@ $ python3 pycalculus.py -d 'x^2-5*x+3'
 ```
 ### Integrate x^2-5x+3 
 ```
-python3 pycalculus.py -i 'x^2-5*x+3' 
+$ python3 pycalculus.py -i 'x^2-5*x+3' 
 
 ```
 
